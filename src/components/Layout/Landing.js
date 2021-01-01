@@ -4,9 +4,7 @@ import home from "../../assets/home.jpg"
 import user from "../../assets/user2.png"
 
 class Landing extends Component {
-  
   render() {
-
     return (
       <div className="landing">
         <div className="light-overlay landing-inner text-dark">
@@ -21,7 +19,6 @@ class Landing extends Component {
                     padding:'40px',
                     right: '0px',
                     background: '#FFFFFF 0% 0% no-repeat padding-box',
-                  //  boxShadow: ' 0px 12px 32px #383B470F',
                     boxShadow: '0px 0px 108px -12px rgba(0,0,0,0.75)',
                     position:' relative',
                     fontWeight:' bold',
